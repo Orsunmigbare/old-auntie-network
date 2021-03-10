@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+@font-face {
+  font-family: 'Cerebri Sans Pro Bold';
+  src: url('../fonts/CerebriSansPro-Bold.ttf');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Cerebri Sans Pro';
+  src: url('../fonts/CerebriSansPro-Regular.ttf');
+  font-style: normal;
+  font-weight: normal;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0 !important;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  margin: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+a i {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+a:hover i {
+  -webkit-animation-name: hvr-icon-wobble-horizontal;
+  animation-name: hvr-icon-wobble-horizontal;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+@-webkit-keyframes hvr-icon-wobble-horizontal {
+  16.65% {
+    -webkit-transform: translateX(6px);
+    transform: translateX(6px);
+  }
+
+  33.3% {
+    -webkit-transform: translateX(-5px);
+    transform: translateX(-5px);
+  }
+
+  49.95% {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
+  }
+
+  66.6% {
+    -webkit-transform: translateX(-2px);
+    transform: translateX(-2px);
+  }
+
+  83.25% {
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px);
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@keyframes hvr-icon-wobble-horizontal {
+  16.65% {
+    -webkit-transform: translateX(6px);
+    transform: translateX(6px);
+  }
+
+  33.3% {
+    -webkit-transform: translateX(-5px);
+    transform: translateX(-5px);
+  }
+
+  49.95% {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
+  }
+
+  66.6% {
+    -webkit-transform: translateX(-2px);
+    transform: translateX(-2px);
+  }
+
+  83.25% {
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px);
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+.invite-box {
+  background: #F8F5F4;
+  border: 0.3px solid #C5AFAD;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 20px;
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+}
+
+.invite-btn {
+  font-family: 'Cerebri Sans Pro';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #CB7894;
+  background: transparent;
+  outline: none;
+  border: none;
+  margin-top: 8px;
+}
+
+.have-acc {
+  font-family: 'Cerebri Sans Pro';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #A8A8A8;
+  margin: 30px 0 40px 0;
+  text-align: center;
+}
+
+.login-acc {
+  color: #A8A8A8;
+  border-bottom: 1px solid #A8A8A8;
+}
+
+.login-acc:hover,
+.login-acc:focus {
+  color: #CB7894;
+  text-decoration:none;
+}
+
+.login-acc {
+  color: #A8A8A8;
+  border-bottom: 1px solid #A8A8A8;
+}
+
+.terms {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160.7%;
+  text-align: center;
+  color: #686868;
+  max-width: 444px;
+  margin: auto;
+}
