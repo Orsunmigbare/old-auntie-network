@@ -1,0 +1,147 @@
+@media (min-width: 768px) {
+    .h-md-100 {
+        height: 100vh;
+    }
+}
+
+.bg-greene {
+    background: url('../../assets/img/login/Group 457.png') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #2F7D8B;
+}
+
+.logo-positionlog {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.logo-positionlog img {
+    width: 100px;
+}
+
+.splash-imagelog {
+    width: 300px;
+}
+
+.bg-greene h1 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 45px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.bg-greene h2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 20px;
+    color: #FFFFFF;
+}
+
+.bg-greene p {
+    max-width: 374px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 160.7%;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    color: #CECECE;
+}
+
+.bg-greene h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160.7%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.bg-greene h3 span {
+    font-weight: 500;
+    font-style: italic;
+}
+
+.loginarea h1 {
+    font-family: 'Cerebri Sans Pro Bold';
+    font-style: normal;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #686868;
+    margin-bottom: 20px;
+}
+
+.loginemail {
+    font-family: 'Cerebri Sans Pro';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #949494;
+    padding: 15px 20px 15px 80px;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+
+    border: 1px solid #C5AFAD;
+    box-sizing: border-box;
+    border-radius: 28px;
+}
+
+@media only screen and (max-width:1024px) {
+    .loginemail {
+        padding: 15px 20px 15px 40px;
+    }
+}
+
+.loginarea img {
+    width: 20px;
+}
+
+.ff-logo {
+    width: 15px !important;
+}
+
+.breaking-orf {
+    font-size: 15px;
+}
+
+.breaking-orf::before,
+.breaking-orf::after {
+    display: inline-block;
+    content: "";
+    border-top: 2px solid #C4C4C4;
+    width: 150px;
+    margin: 0 10px;
+    transform: translateY(-0.2rem);
+}
+
+@media only screen and (max-width:1024px) {
+
+    .breaking-orf::before,
+    .breaking-orf::after {
+        width: 100px;
+    }
+}
+
+.loginarea h2 {
+    font-family: 'Cerebri Sans Pro Bold';
+    font-style: normal;
+    font-size: 15px;
+    color: #686868;
+    margin-top: 30px;
+}

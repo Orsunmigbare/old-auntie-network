@@ -86,16 +86,15 @@
 .signupemail {
     font-style: normal;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 14px;
     color: #FFFFFF;
     background: #CF1D58;
     border: 1px solid #CF1D58;
     box-sizing: border-box;
-    box-shadow: 0px 1px 10px 2px rgb(207 29 88 / 50%);
     border-radius: 30px;
-    padding: 15px 50px;
+    padding: 15px 20px 15px 80px;
     width: 100%;
-    height: 60px;
+    height: 50px;
     margin-bottom: 15px;
     display: flex;
     align-items: center;
@@ -103,16 +102,84 @@
 
 @media only screen and (max-width:1024px) {
     .signupemail {
-        padding: 15px 20px;
+        padding: 15px 20px 15px 40px;
     }
 }
 
-.signupemail img {
-    width: 50px;
+.registerarea img {
+    width: 25px;
+}
+
+.signupfacebook {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFFFFF;
+    background: #1E41BE;
+    border: 1px solid #1E41BE;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 15px 20px 15px 80px;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width:1024px) {
+    .signupfacebook {
+        padding: 15px 20px 15px 40px;
+    }
+}
+
+.signupgoogle {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px 2px rgba(214, 214, 214, 0.5);
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 15px 20px 15px 80px;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #949494;
+}
+
+.signuptwitter {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFFFFF;
+    background: #1DA1F2;
+    border: 1px solid #1DA1F2;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 15px 20px 15px 80px;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width:1024px) {
+    .signuptwitter {
+        padding: 15px 20px 15px 40px;
+    }
 }
 
 .position-social-logo {
     order: 0;
+    margin-right: 10px;
+}
+
+.f-logo {
+    width: 15px !important;
 }
 
 .breaking-or {
@@ -125,6 +192,25 @@
     content: "";
     border-top: 2px solid #C4C4C4;
     width: 150px;
-    margin: 0 10px;
+    margin: 0 30px;
     transform: translateY(-0.2rem);
 }
+
+@media only screen and (max-width:1024px) {
+
+    .breaking-or::before,
+    .breaking-or::after {
+        width: 100px;
+        margin: 0 10px;
+    }
+}
+
+.registerarea h2 {
+    font-family: 'Cerebri Sans Pro Bold';
+    font-style: normal;
+    font-size: 15px;
+    color: #686868;
+    margin-top: 30px;
+}
+
+

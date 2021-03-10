@@ -2,6 +2,11 @@ import React, { Component } from "react";
 import "./register.css";
 import logo from "../../assets/img/logo.png";
 import splash from "../../assets/img/register/splash-image.png";
+import mail from "../../assets/img/Mail.png";
+import facebook from "../../assets/img/fa-brands_facebook-f.png";
+import google from "../../assets/img/grommet-icons_google.png";
+import twitter from "../../assets/img/Vector.png";
+import { Link } from "react-router-dom";
 export class RegisterComponent extends Component {
   render() {
     return (
@@ -32,10 +37,56 @@ export class RegisterComponent extends Component {
               <div className="pt-5 pb-5">
                 <h1>Create an Account</h1>
                 <button className="signupemail">
-                  <img className="position-social-logo" src={logo} alt="social logo" />
+                  <img
+                    className="position-social-logo"
+                    src={mail}
+                    alt="social logo"
+                  />
                   Sign Up with Email
                 </button>
+                <button className="signupfacebook">
+                  <img
+                    className="position-social-logo f-logo"
+                    src={facebook}
+                    alt="social logo"
+                  />
+                  Sign Up with Facebook
+                </button>
+                <button className="signupgoogle">
+                  <img
+                    className="position-social-logo"
+                    src={google}
+                    alt="social logo"
+                  />
+                  Sign Up with Google
+                </button>
+                <button className="signuptwitter">
+                  <img
+                    className="position-social-logo"
+                    src={twitter}
+                    alt="social logo"
+                  />
+                  Sign Up with Twitter
+                </button>
+                <br/>
                 <span className="breaking-or">Or</span>
+
+                <h2>Want to invite someone ?</h2>
+                <input
+                  type="text"
+                  placeholder="fredsergio@gmail.com"
+                  className="invite-box"
+                />
+                <div className="text-right">
+                  <button className="invite-btn">
+                    Send Invite <i className="fa fa-angle-right"></i>
+                  </button>
+                </div>
+                <p className="have-acc">
+                  Already have an account ? <Link to="/login" className="login-acc">Login</Link>{" "}
+                </p>
+
+                <p className="terms">By creating an account, you agree to our Terms and Conditions.</p>
               </div>
             </div>
           </div>
